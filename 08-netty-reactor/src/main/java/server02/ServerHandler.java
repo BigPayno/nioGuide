@@ -1,0 +1,34 @@
+package server02;
+
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.ChannelInboundHandlerAdapter;
+
+import java.util.concurrent.TimeUnit;
+
+/**
+ * 处理服务端 channel.
+ *
+ * 此处使用线程池处理就是多线程的reactor模式
+ */
+public class ServerHandler extends ChannelInboundHandlerAdapter {
+
+    @Override
+    public void channelRead(ChannelHandlerContext ctx, Object msg) {
+    	System.out.println("客户端[" + ctx.channel().remoteAddress()+"]->服务器端:"+ msg.toString());
+        ctx.write(msg + "\n");
+     }
+
+    @Override
+    public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("服务器端读取完成...");
+        ctx.flush();
+        TimeUnit.MILLISECONDS.sleep(200);
+    }
+
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) { 
+        cause.printStackTrace();
+        ctx.close();
+    }
+}
+
