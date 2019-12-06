@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/04-nio-selector/pom.xml" />
+        <option value="$PROJECT_DIR$/05-netty-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/02-nio-buffers/pom.xml" />
+        <option value="$PROJECT_DIR$/01-bio/pom.xml" />
+        <option value="$PROJECT_DIR$/03-nio-channel/pom.xml" />
+        <option value="$PROJECT_DIR$/07-netty-channel/pom.xml" />
+        <option value="$PROJECT_DIR$/06-netty-bytebuf/pom.xml" />
+        <option value="$PROJECT_DIR$/08-netty-reactor/pom.xml" />
+      </list>
+    </option>
+  </component>
+</project>

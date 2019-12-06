@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-bio/01-bio.iml" filepath="$PROJECT_DIR$/01-bio/01-bio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-nio-buffers/02-nio-buffers.iml" filepath="$PROJECT_DIR$/02-nio-buffers/02-nio-buffers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-nio-channel/03-nio-channel.iml" filepath="$PROJECT_DIR$/03-nio-channel/03-nio-channel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-nio-selector/04-nio-selector.iml" filepath="$PROJECT_DIR$/04-nio-selector/04-nio-selector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-netty-demo/05-netty-demo.iml" filepath="$PROJECT_DIR$/05-netty-demo/05-netty-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-netty-bytebuf/06-netty-bytebuf.iml" filepath="$PROJECT_DIR$/06-netty-bytebuf/06-netty-bytebuf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-netty-channel/07-netty-channel.iml" filepath="$PROJECT_DIR$/07-netty-channel/07-netty-channel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-netty-reactor/08-netty-reactor.iml" filepath="$PROJECT_DIR$/08-netty-reactor/08-netty-reactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/netty-demo.iml" filepath="$PROJECT_DIR$/.idea/netty-demo.iml" />
+    </modules>
+  </component>
+</project>

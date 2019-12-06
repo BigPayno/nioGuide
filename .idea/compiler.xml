@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="05-netty-demo" />
+        <module name="01-bio" />
+        <module name="06-netty-bytebuf" />
+        <module name="07-netty-channel" />
+        <module name="03-nio-channel" />
+        <module name="04-nio-selector" />
+        <module name="02-nio-buffers" />
+        <module name="08-netty-reactor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-bio" target="1.8" />
+      <module name="02-nio-buffers" target="1.8" />
+      <module name="03-nio-channel" target="1.8" />
+      <module name="04-nio-selector" target="1.8" />
+      <module name="05-netty-demo" target="1.8" />
+      <module name="06-netty-bytebuf" target="1.8" />
+      <module name="07-netty-channel" target="1.8" />
+      <module name="08-netty-reactor" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
